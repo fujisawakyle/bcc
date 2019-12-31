@@ -13,9 +13,9 @@ import Accordion from '../components/Accordion'
 // import data from '../content'
 
 const sections = [
-  { id: 'one', bg: require('../assets/images/mountains-green.png') },
+  { id: 'one', bg: require('../assets/images/mountains-pink.png') },
   { id: 'two', bg: require('../assets/images/mountains-blue.png') },
-  { id: 'three', bg: require('../assets/images/mountains-pink.png') },
+  { id: 'three', bg: require('../assets/images/mountains-green.png') },
 ];
 const IndexPage = () => {
   return (

@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Highlights', // <title>
+  siteTitle: 'Tessa and Kyle Commitment Celebration', // <title>
   manifestName: 'Highlights',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -16,22 +16,22 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/fujisawakyle',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/fujisawakyle',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/fujisawakyle',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:kfujisawa90@gmail.com',
     },
   ],
 };

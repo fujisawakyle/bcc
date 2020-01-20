@@ -122,7 +122,7 @@
 		background-repeat:		repeat,						none;
 		background-size:		auto,						cover;
 		@include breakpoint('<=xsmall') {
-			background-position:center center;
+			background-image: none;
 		}
 	}
 

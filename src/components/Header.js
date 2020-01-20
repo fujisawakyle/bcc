@@ -1,7 +1,7 @@
 import React from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
-import TessKylePic from '../assets/images/beach_naisu.jpg'
+import TessKylePic from '../assets/images/redlands_naisu_kiss.jpg'
 
 export default function Header() {
   return (
@@ -10,20 +10,10 @@ export default function Header() {
         <h1 style={{ textShadow: "2.5px 2px #b8567c" }}>{config.heading}</h1>
         <br />
         <img style={{ maxWidth: "500px", width: "100%", opacity: "0.8" }} src={TessKylePic} />
-        <p style={{ fontSize: '1.7em', marginTop: '1em' }}>{config.subHeading}</p>
-        <p style={{ marginTop: '0.5em' }}>{config.date}</p>
+        <p style={{ fontSize: '2.7em', marginTop: '1em', fontFamily: "'Dancing Script', cursive", textShadow: "2.5px 2px #b8567c", lineHeight: 1 }}>{config.subHeading}</p>
+        <p style={{ fontSize: '1.5em', marginTop: '0.7em', textShadow: "2.5px 2px #b8567c" }}>{config.date}</p>
       </header>
-      <div className="container">
-        <ul className="actions special">
-          <li>
-            <Scroll type="id" element="one">
-              <a href="#one" className="button primary">
-                Find out more
-              </a>
-            </Scroll>
-          </li>
-        </ul>
-      </div>
+
     </section>
   );
 }

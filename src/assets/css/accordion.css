@@ -10,11 +10,12 @@
 
 .accordion__item + .accordion__item {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .accordion__button {
-  background-color: rgba(144, 144, 144, 0.15);
-  color: #444;
+  background-color: rgba(203, 108, 63, 0.95);
+  color: #EEE;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -24,6 +25,7 @@
 
 .accordion__button:hover {
   background-color: #ddd;
+  background-color: rgba(223, 128, 83, 0.95);;
 }
 
 .accordion__button:before {

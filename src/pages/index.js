@@ -30,9 +30,6 @@ const IndexPage = () => {
             <img src={sections[0].bg} alt="" />
           </span>
           <div className="content">
-            <header className="major">
-            </header>
-            <br />
             <p>
               Now you will know what you're walking into.
           </p>
@@ -91,12 +88,12 @@ const IndexPage = () => {
             <img src={sections[2].bg} alt="" />
           </span>
           <div className="content">
-            <header className="major">
-              <h2>Thank you!</h2>
-            </header>
+            <h2>Thank you!</h2>
             <p>
               We carefully curated our guest list, so thank you for being a part of our lives and sharing our joy!
           </p>
+            <header className="major">
+            </header>
           </div>
           <Scroll type="id" element="footer">
             <a href="#footer" className="goto-next ">

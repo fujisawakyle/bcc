@@ -45,7 +45,7 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <section id="two" className="main special">
+      {/* <section id="two" className="main special">
         <div className="container">
           <span className="image fit primary">
             <img src={sections[1].bg} alt="" />
@@ -83,7 +83,7 @@ const IndexPage = () => {
           </a>
           </Scroll>
         </div>
-      </section>
+      </section> */}
 
       <section id="three" className="main special">
         <div className="container">
@@ -92,14 +92,10 @@ const IndexPage = () => {
           </span>
           <div className="content">
             <header className="major">
-              <h2>One more thing</h2>
+              <h2>Thank you!</h2>
             </header>
             <p>
-              Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
-              pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
-              adipiscing eu amet interdum lorem blandit vis ac commodo aliquet
-              integer vulputate phasellus lorem ipsum dolor lorem magna consequat
-              sed etiam adipiscing interdum.
+              We carefully curated our guest list, so thank you for being a part of our lives and sharing our joy!
           </p>
           </div>
           <Scroll type="id" element="footer">
@@ -113,21 +109,22 @@ const IndexPage = () => {
       <section id="footer">
         <div className="container">
           <header className="major">
-            <h2>Get in touch</h2>
+            <h2>So, are you coming?</h2>
+            <br />
+            <p style={{ color: '#444' }}> Please RSVP below! You may RSVP for multiple people - just add all the names to the form below:</p>
           </header>
-          <form method="post" action="#">
+          <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="contact" />
             <div className="row gtr-uniform">
-              <div className="col-6 col-12-xsmall">
-                <input type="text" name="name" id="name" placeholder="Name" />
-              </div>
-              <div className="col-6 col-12-xsmall">
-                <input type="email" name="email" id="email" placeholder="Email" />
+              <div className="col-12">
+                <input type="text" name="name" id="name" placeholder="Name or Names" />
               </div>
               <div className="col-12">
                 <textarea
                   name="message"
                   id="message"
-                  placeholder="Message"
+                  placeholder="Message (Optional)"
                   rows="4"
                 />
               </div>
@@ -136,7 +133,7 @@ const IndexPage = () => {
                   <li>
                     <input
                       type="submit"
-                      value="Send Message"
+                      value="Send RSVP"
                       className="primary"
                     />
                   </li>
@@ -144,7 +141,6 @@ const IndexPage = () => {
               </div>
             </div>
           </form>
-          <Link to="/Elements"> Check out Elements page</Link>
         </div>
         <Footer />
       </section>

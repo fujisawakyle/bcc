@@ -1,7 +1,7 @@
 import React from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
-import TessKylePic from '../assets/images/redlands_naisu_kiss.jpg'
+import TessKylePic from '../assets/images/beach_naisu.jpg'
 
 export default function Header() {
   return (

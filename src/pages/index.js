@@ -29,16 +29,6 @@ const IndexPage = () => {
           <span className="image fit primary">
             <img src={sections[0].bg} alt="" />
           </span>
-          <div className="content">
-            <p>
-              Now you will know what you're walking into.
-          </p>
-          </div>
-          <Scroll type="id" element="two">
-            <a href="#two" className="goto-next ">
-              Next
-          </a>
-          </Scroll>
         </div>
       </section>
 
@@ -82,7 +72,7 @@ const IndexPage = () => {
         </div>
       </section> */}
 
-      <section id="three" className="main special">
+      {/* <section id="three" className="main special">
         <div className="container">
           <span className="image fit primary">
             <img src={sections[2].bg} alt="" />
@@ -101,12 +91,12 @@ const IndexPage = () => {
           </a>
           </Scroll>
         </div>
-      </section>
+      </section> */}
 
       <section id="footer">
         <div className="container">
           <header className="major">
-            <h2>So, are you coming?</h2>
+            <h2>Now that you know what you're walking into, are you coming?</h2>
             <br />
             <p style={{ color: '#444' }}> Please RSVP below! You may RSVP for multiple people - just add all the names to the form below:</p>
           </header>

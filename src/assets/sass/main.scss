@@ -1103,17 +1103,17 @@
 		}
 
 		&.primary {
-			background-color: _palette(accent1, bg);
+			background-color: rgba(203, 108, 63, 0.95);
 			border: 0;
 			box-shadow: none;
 			color: _palette(accent1, fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent1, bg), 5);
+				background-color: darken(rgba(203, 108, 63, 0.95), 5);
 			}
 
 			&:active {
-				background-color: darken(_palette(accent1, bg), 5);
+				background-color: darken(rgba(203, 108, 63, 0.95), 5);
 			}
 
 			&.icon {

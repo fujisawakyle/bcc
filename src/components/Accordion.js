@@ -52,17 +52,15 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            <b>When:</b> We are gonna celebrate between 10am and 4pm on Sunday, September 6, 2020.
+            <b>When:</b> We are gonna celebrate between 11:30am and 4pm on Sunday, September 6, 2020. Please arrive hungry between 11:30am-12:00pm.
           </p>
           <p>
-            <b>Where:</b> <a target="_blank" href="https://www.google.com/maps/place/Agua+Dulce,+CA+91390/@34.4964153,-118.3431873,14z/data=!3m1!4b1!4m5!3m4!1s0x80c263cb72c77aff:0xe7d20bff6c3db594!8m2!3d34.4963817!4d-118.3256348">Agua Dulce, CA</a>
+            <b>Where:</b> <a target="_blank" href="https://www.google.com/maps/place/33120+Agua+Dulce+Canyon+Rd,+Santa+Clarita,+CA+91390/@34.4908495,-118.328482,17z/data=!4m13!1m7!3m6!1s0x80c28a99247927c3:0xc3e2428db4380270!2s33120+Agua+Dulce+Canyon+Rd,+Santa+Clarita,+CA+91390!3b1!8m2!3d34.4908495!4d-118.3262933!3m4!1s0x80c28a99247927c3:0xc3e2428db4380270!8m2!3d34.4908495!4d-118.3262933">33120 Agua Dulce Canyon Rd, Santa Clarita, CA 91390</a>
           </p>
           <p>
-            We are keeping it early so that you can go home safely in the light of this early autumn day!
+            We are keeping it early so that you can go home safely in the early light of this autumn day!
           </p>
-          <p>
-            It’s gonna be HOT. Please dress accordingly!
-          </p>
+         
         </AccordionItemPanel>
       </AccordionItem>
 
@@ -76,7 +74,7 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            There is a parking lot down the road from the venue at ___.
+            There is a parking lot down the road from the venue at <a target="_blank" href="https://www.google.com/maps/place/Agua+Dulce+Women's+Club/@34.4908495,-118.328482,17z/data=!4m13!1m7!3m6!1s0x80c28a99247927c3:0xc3e2428db4380270!2s33120+Agua+Dulce+Canyon+Rd,+Santa+Clarita,+CA+91390!3b1!8m2!3d34.4908495!4d-118.3262933!3m4!1s0x0:0xf30a7d75d732ed97!8m2!3d34.4928466!4d-118.3271997">Agua Dulce Women's Club Parking Lot</a>.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
@@ -91,15 +89,7 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            You’re gonna arrive between 10 and 10:40. You’re gonna enjoy some coffee and tea and live music.
-          </p>
-          <br />
-          <p>
-            Then, at 11:00 (ON THE DOT), we are going to have a brief observance that will help you all understand what we are celebrating and what we are committing to. This ceremony-type deal will also integrate some singing and music. The important part is that you are all there to witness us make our commitment public.
-          </p>
-          <br />
-          <p>
-            After our lil ceremony, we will have a big satisfying lunch and some delicious cake.
+            Please arrive hungry between 11:30am-12:00pm. Lunch will be served at 12pm, and we will begin the celebration at 12:30pm while you finish eating! Watch us say cute stuff for a little while. Next, we will have dancing and dessert. :^D
           </p>
 
         </AccordionItemPanel>
@@ -129,7 +119,7 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            <b>NO GIFTS!</b>
+            <b>ABSOLUTELY NO GIFTS!</b>
           </p>
           <br />
           <p>
@@ -141,7 +131,7 @@ export default function Example() {
           </p>
           <br />
           <p>
-            There is one really specific gift we want you to give us: You arrive at 10:30am and you stay and dance and laugh and have fun until the party is over at 4pm. You want to give us a gift? Stay. Hang out. Take pictures with us. Dance with us. LET’S BE MERRY.
+            There is one really specific gift we want you to give us: You arrive at 11:30am and you stay and dance and laugh and have fun until the party is over at 4pm. You want to give us a gift? Stay! Hang out, dance, and take pictures with us. Let's be merry!
           </p>
         </AccordionItemPanel>
       </AccordionItem>
@@ -156,8 +146,15 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Doesn't matter, but it’s gonna be HOT. Please dress accordingly!
-          </p>
+           
+           We want you to feel comfortable and beautiful! Wear whatever you want - jeans, pretty dresses, who cares! Something to note is that the terrain at the venue is mostly dirt, so heels and fancy shoes are not recommended. 
+           </p>
+           <br/>
+            
+          <p>
+          Additionally, it might be quite warm, so please keep that in mind. ☀️
+        
+               </p>
         </AccordionItemPanel>
       </AccordionItem>
 
@@ -166,7 +163,7 @@ export default function Example() {
       <AccordionItem>
         <AccordionItemHeading>
           <AccordionItemButton>
-            What about alcohol?
+            What about alcohol/dranks?
                     </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>

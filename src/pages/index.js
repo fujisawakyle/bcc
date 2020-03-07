@@ -128,6 +128,21 @@ const IndexPage = () => {
               </div>
             </div>
           </form>
+          <br />
+          <h1>Here's a link to some cute photos from our time together thus far.</h1>
+        </div>
+
+        <Footer />
+      </section>
+
+      <section id="two">
+        <div className="container">
+          <header className="major">
+
+
+
+          </header>
+
         </div>
         <Footer />
       </section>

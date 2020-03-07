@@ -52,7 +52,7 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            <b>When:</b> We are gonna celebrate between 11:30am and 4pm on Sunday, September 6, 2020. Please arrive hungry between 11:30am-12:00pm.
+            <b>When:</b> We are gonna celebrate from 11:30am to 4pm on Sunday, September 6, 2020. Please arrive hungry between 11:30am-12:00pm.
           </p>
           <p>
             <b>Where:</b> <a target="_blank" href="https://www.google.com/maps/place/33120+Agua+Dulce+Canyon+Rd,+Santa+Clarita,+CA+91390/@34.4908495,-118.328482,17z/data=!4m13!1m7!3m6!1s0x80c28a99247927c3:0xc3e2428db4380270!2s33120+Agua+Dulce+Canyon+Rd,+Santa+Clarita,+CA+91390!3b1!8m2!3d34.4908495!4d-118.3262933!3m4!1s0x80c28a99247927c3:0xc3e2428db4380270!8m2!3d34.4908495!4d-118.3262933">33120 Agua Dulce Canyon Rd, Santa Clarita, CA 91390</a>
@@ -89,7 +89,12 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Please arrive hungry between 11:30am-12:00pm. Lunch will be served at 12pm, and we will begin the celebration at 12:30pm while you finish eating! Watch us say cute stuff for a little while. Next, we will have dancing and dessert. :^D
+            Please arrive hungry between 11:30am-12:00pm. Lunch* will be served at 12pm, and we will begin the celebration at 12:30pm while you finish eating! Watch us say cute stuff for a little while. Next, we will have dancing and dessert. :^D
+          </p>
+          
+          <br />
+          <p>
+            *We are happy to provide a bountiful meal that is free from dairy and animal products. While there will be options that are gluten-free, we cannot gaurantee that these goodies have not been in contact with gluten.
           </p>
 
         </AccordionItemPanel>

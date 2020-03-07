@@ -94,7 +94,7 @@ export default function Example() {
           
           <br />
           <p>
-            *We are happy to provide a bountiful meal that is free from dairy and animal products. While there will be options that are gluten-free, we cannot gaurantee that these goodies have not been in contact with gluten.
+            *We are happy to provide a bountiful meal that is free from dairy and animal products. While there will be options that are gluten-free, we cannot guarantee that these goodies have not been in contact with gluten.
           </p>
 
         </AccordionItemPanel>
@@ -179,6 +179,7 @@ export default function Example() {
           <p>
             If you feel inclined to drink, we ask that you do so off of the property.
           </p>
+          <br/>
           <p>
             We thank you for respecting this key part of our shared value system. <i class="fa fa-heart" />
           </p>

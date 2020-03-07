@@ -105,7 +105,7 @@ const IndexPage = () => {
             <input type="hidden" name="form-name" value="contact" />
             <div className="row gtr-uniform">
               <div className="col-12">
-                <input type="text" name="name" id="name" placeholder="Name or Names" />
+                <input required type="text" name="name" id="name" placeholder="Name or Names" />
               </div>
               <div className="col-12">
                 <textarea

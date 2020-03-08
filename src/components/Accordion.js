@@ -109,7 +109,7 @@ export default function Example() {
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
-            Oh, jeez. IDK. If you’d like to be connected with other out-of-town guests to perhaps coordinate a shared Airbnb situation, send an email to <a href="mailto:Tessa.urb@gmail.com">Tessa.urb@gmail.com</a> and she will connect all y’all!
+            If you need help finding a hotel or if you’d like to be connected with other out-of-town guests to perhaps coordinate a shared Airbnb situation, send an email to <a href="mailto:Tessa.urb@gmail.com">Tessa.urb@gmail.com</a> and she will connect all y’all!
           </p>
         </AccordionItemPanel>
       </AccordionItem>

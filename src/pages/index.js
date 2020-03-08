@@ -128,8 +128,11 @@ const IndexPage = () => {
               </div>
             </div>
           </form>
-          {/* <br />
-          <h1>Here's a link to some cute photos from our time together thus far.</h1> */}
+          <br />
+          <hr />
+          <a target="_blank" href="https://photos.app.goo.gl/ZPkJiySCUBYVcQBk7"><span className="icon major fa-camera-retro" /></a>
+          {/* <br /> */}
+          <h1>Here's a <a target="_blank" href="https://photos.app.goo.gl/ZPkJiySCUBYVcQBk7">link to some cute photos</a> from our time together thus far.</h1>
         </div>
 
         <Footer />

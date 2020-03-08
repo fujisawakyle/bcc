@@ -160,13 +160,16 @@
 
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-bottom-color #{_duration(transition)} ease-in-out'));
-		border-bottom: dotted 1px;
-		color: _palette(accent1, bg);
+		
+		margin-bottom: 3px;
+		color: rgba(203, 108, 63, 0.95) !important;
 		text-decoration: none;
+		line-height:2;
 
 		&:hover {
-			border-bottom-color: transparent !important;
-			color: _palette(accent1, bg) !important;
+			border-bottom: solid 3px rgba(203, 108, 63, 0.95) !important;
+			
+			color: rgba(203, 108, 63, 0.95) !important;
 			text-decoration: none;
 		}
 	}
@@ -706,6 +709,11 @@
 		&.major {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			font-size: 2rem;
+
+			&.fa-camera-retro {
+				margin: 0;
+			}
 
 			&:before {
 				font-size: 2.5em;

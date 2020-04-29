@@ -11,7 +11,10 @@ export default function Header() {
         <br />
         <img style={{ maxWidth: "350px", width: "100%", opacity: "0.8", maxHeight: "500px" }} src={TessKylePic} />
         <p style={{ fontSize: '2.7em', marginTop: '1em', fontFamily: "'Dancing Script', cursive", textShadow: "2.5px 2px #b8567c", lineHeight: 1 }}>{config.subHeading}</p>
-        <p style={{ fontSize: '1.5em', marginTop: '0.7em', textShadow: "2.5px 2px #b8567c" }}>{config.date}</p>
+        <p style={{ fontSize: '1.5em', marginTop: '0.7em', textShadow: "2.5px 2px #b8567c" }}><del>{config.date}</del></p>
+        <p style={{ fontSize: '1.5em', marginTop: '0.7em', textShadow: "2.5px 2px #b8567c" }}>Postponed until 2021 :(</p>
+        <p style={{ fontSize: '1.5em', marginTop: '0.7em', textShadow: "2.5px 2px #b8567c" }}>Thank you for visiting - we love you!</p>
+
       </header>
 
     </section>
